@@ -18,6 +18,7 @@ spring:
   #       max-interval: 15000
   #       multiplier: 1.5
 
+
 # Custom version management
 # IMPORTANT: If you set this here, Maven will ignore the version in pom.xml
 # Use this if you want to force a version for this specific profile
