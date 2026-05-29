@@ -1,3 +1,24 @@
 spring:
+  profiles:
+    active:
+      - ${SPRING_PROFILE_ACTIVE:dev}
   application:
     name: coding-service
+  # config:
+  #   import: "configserver:http://config-server:8888"
+
+  # cloud:
+  #   config:
+  #     fail-fast: true
+  #     username: ${CONFIG_SERVER_USERNAME:devconfig}
+  #     password: ${CONFIG_SERVER_PASSWORD:devconfig}
+  #     retry:
+  #       max-attempts: 10
+  #       initial-interval: 2000
+  #       max-interval: 15000
+  #       multiplier: 1.5
+
+# Custom version management
+# IMPORTANT: If you set this here, Maven will ignore the version in pom.xml
+# Use this if you want to force a version for this specific profile
+# revision: 2.0.1-SNAPSHOT
