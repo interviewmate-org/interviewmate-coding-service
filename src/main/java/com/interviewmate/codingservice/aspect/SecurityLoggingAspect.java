@@ -1,4 +1,4 @@
-package com.interviewmate.codingservice.aop;
+package com.interviewmate.codingservice.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
